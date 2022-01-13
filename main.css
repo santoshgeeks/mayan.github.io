@@ -1,56 +1,65 @@
-
 @font-face {
     font-family: headerFont;
     src: url('./fonts/kollektif-cufonfonts/Kollektif.ttf');
 }
+
 @font-face {
     font-family: bodyFont;
     src: url('./fonts/clarendon_blk_bt/Clrndnk.ttf');
 }
-body{
-   margin: 0px;
+
+body {
+    margin: 0px;
 }
-.header-section{
+
+.header-section {
     padding: 0px 5px 0px 5px;
     background: #ECECEC;
     font-family: headerFont;
     box-shadow: 2px -8px 13px 3px;
-    
+
 }
-.header{
+
+.header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.header-item1{
-    color:  #432e79;
+
+.header-item1 {
+    color: #432e79;
     width: 110px;
     font-size: 20px;
-    
+
 }
-.header-item2 img{
-    height: 65px;
+
+.header-item2 img {
+    height: 75px;
     width: 100%;
 }
-.header-item3 img{
+
+.header-item3 img {
     height: 24px;
     width: 100%;
     width: 110px;
 }
-.sby{
+
+.sby {
     color: #432e79;
     font-size: 15px;
     margin-bottom: 5px;
     text-align: center;
 }
-.textArea{
+
+.textArea {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.topDiscription{
+
+.topDiscription {
     color: #432e79;
     font-family: bodyFont;
     padding: 10px;
@@ -58,15 +67,17 @@ body{
     text-align: center;
     letter-spacing: 0.3px;
 }
-.whatsHereSection{
+
+.whatsHereSection {
     background: #ECECEC;
     margin: 5px;
     position: relative;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
     border-radius: 5px;
     height: auto;
 }
-.head{
+
+.head {
     display: flex;
     text-align: center;
     align-items: center;
@@ -74,7 +85,7 @@ body{
     height: 53px;
 }
 
-.head-text{
+.head-text {
     font-family: bodyFont;
     color: #432e79;
     font-size: 1.5rem;
@@ -82,23 +93,27 @@ body{
     align-items: center;
     justify-content: center;
 }
-.darkLine{
+
+.darkLine {
     height: 12px;
     background: #d1d1d1;
     box-shadow: 0px 0px -2px 3px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.head-icon{
+
+.head-icon {
     text-align: center;
     float: left;
-    width: 100px;
+    width: 132px;
 }
-.head-icon img{
+
+.head-icon img {
     height: 58px;
     width: 100%;
 }
-.whats-here-yellow-bg{
+
+.whats-here-yellow-bg {
     display: flex;
     background: #F3D250;
     height: auto;
@@ -108,20 +123,234 @@ body{
     flex-wrap: wrap;
     margin: 0px 7px 7px 7px;
     border-radius: 5px;
+    padding-top: 9px;
+    box-shadow: 0px 6px 0px 0px #f3d250;
 }
-.whats-here-yellow-bg-list{
+
+.whats-here-yellow-bg-list {
     background: #ECECEC;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     width: 90px;
-    box-shadow: 0px -1px 8px 1px #999797;
+    box-shadow: 0px 4px 5px 0px #999797;
     border-radius: 2px;
 }
-.whybiIcon img{
+
+.whybiIcon img {
     height: 50px;
 }
-.whybiText{
+
+.whybiText {
     color: #432e79;
     font-family: bodyFont;
     font-size: 10px;
+}
+
+.studentTeamCodeSection {
+    background: #ECECEC;
+    margin: 5px;
+    position: relative;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.studenHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studenHead .text {
+    font-family: bodyFont;
+    color: #432e79;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 55%;
+}
+
+.studenHead img {
+    height: 78px;
+    width: 30%;
+}
+
+.studentTeamCodePink {
+    background: #F78888;
+    margin: 7px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    flex-wrap: wrap;
+}
+
+.studentTeamCodePink table {
+    width: 100%;
+    background: #ECECEC;
+    margin: 10px;
+}
+
+.studentTeamCodePink table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+.scroll-me {
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.studentTeamCodePink table th,
+td {
+    color: #432e79;
+    font-family: headerFont;
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background: #f2e096;
+}
+
+.requestTextArea {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 11px;
+    position: relative;
+    width: 100%;
+
+}
+
+.requestTextArea .text {
+    font-family: bodyFont;
+    color: #432e79;
+    font-size: 1.2rem;
+}
+
+.requestTextArea input[type=number] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    border: navajowhite;
+    height: 30px;
+    width: 31px;
+    padding-right: 22%;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.requestTextArea button {
+    background: #F3D250;
+    font-family: bodyFont;
+    color: #432e79;
+    border: none;
+    position: absolute;
+    height: 39px;
+    right: 6px;
+    border-radius: 5px;
+    top: -3px;
+    width: 75px;
+    font-size: 16px;
+}
+
+.footerSection {
+    padding: 0px 5px 0px 5px;
+    background: #ECECEC;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+.footerSection .partners {
+    background: #ECECEC;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    top: -27px;
+}
+
+.footerSection .partners .items {
+    background: #ECECEC;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px -1px grey;
+}
+
+.footerSection .partners .items img {
+    width: 270px;
+}
+
+.footerSection .contactDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.footerSection .contactDetails .contact {
+    width: 34%;
+    text-align: center;
+}
+
+.footerSection .contactDetails .contact .text {
+    color: #432e79;
+    font-family: headerFont;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footerSection .contactDetails .contact .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSection .contactDetails .emailAndFrend {
+    width: 66%;
+    display: flex;
+    background: white;
+    padding: 9px;
+    margin: 5px;
+    box-shadow: 1px 4px 5px -1px #bababa inset;
+    border-radius: 6px;
+}
+.footerSection .contactDetails .emailAndFrend .email {
+  text-align: center;
+  width:50%;
+  border-right: 1.5px solid #432e79;
+}
+
+.footerSection .contactDetails .emailAndFrend .friend  {
+    text-align: center;
+    width:50%;
+    border-left: 1.5px solid #432e79;
+}
+.footerSection .contactDetails .emailAndFrend .email .mailId {
+    font-size: 10px;
+    color: #432e79;
+    font-family: headerFont;
+}
+
+.footerSection .contactDetails .emailAndFrend .friend .dis {
+    font-size: 10px;
+    font-family: headerFont;
+    color: #432e79;
+}
+
+.footerSection .contactDetails .emailAndFrend img {
+    height: 40px;
 }
