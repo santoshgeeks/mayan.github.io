@@ -24,7 +24,7 @@ body{
 }
 .header-item1{
     color:  #432e79;
-    width: 130px;
+    width: 110px;
     font-size: 20px;
     
 }
@@ -35,10 +35,93 @@ body{
 .header-item3 img{
     height: 24px;
     width: 100%;
+    width: 110px;
 }
 .sby{
     color: #432e79;
     font-size: 15px;
     margin-bottom: 5px;
     text-align: center;
+}
+.textArea{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.topDiscription{
+    color: #432e79;
+    font-family: bodyFont;
+    padding: 10px;
+    font-size: .7rem;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+.whatsHereSection{
+    background: #ECECEC;
+    margin: 5px;
+    position: relative;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    height: auto;
+}
+.head{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+}
+
+.head-text{
+    font-family: bodyFont;
+    color: #432e79;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.darkLine{
+    height: 12px;
+    background: #d1d1d1;
+    box-shadow: 0px 0px -2px 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.head-icon{
+    text-align: center;
+    float: left;
+    width: 100px;
+}
+.head-icon img{
+    height: 58px;
+    width: 100%;
+}
+.whats-here-yellow-bg{
+    display: flex;
+    background: #F3D250;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 7px 7px 7px;
+    border-radius: 5px;
+}
+.whats-here-yellow-bg-list{
+    background: #ECECEC;
+    margin: 10px;
+    padding: 5px;
+    width: 90px;
+    box-shadow: 0px -1px 8px 1px #999797;
+    border-radius: 2px;
+}
+.whybiIcon img{
+    height: 50px;
+}
+.whybiText{
+    color: #432e79;
+    font-family: bodyFont;
+    font-size: 10px;
 }
