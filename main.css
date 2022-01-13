@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: headerFont;
+    src: url('./fonts/kollektif-cufonfonts/Kollektif.ttf');
+}
+@font-face {
+    font-family: bodyFont;
+    src: url('./fonts/clarendon_blk_bt/Clrndnk.ttf');
+}
+body{
+   margin: 0px;
+}
+.header-section{
+    padding: 0px 5px 0px 5px;
+    background: #ECECEC;
+    font-family: headerFont;
+    box-shadow: 2px -8px 13px 3px;
+    
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header-item1{
+    color:  #432e79;
+    width: 130px;
+    font-size: 20px;
+    
+}
+.header-item2 img{
+    height: 65px;
+    width: 100%;
+}
+.header-item3 img{
+    height: 24px;
+    width: 100%;
+}
+.sby{
+    color: #432e79;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
