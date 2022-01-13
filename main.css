@@ -224,6 +224,7 @@ table tr:nth-child(even) {
     margin-top: 11px;
     position: relative;
     width: 100%;
+    padding: 8px;
 
 }
 
@@ -254,7 +255,7 @@ table tr:nth-child(even) {
     height: 39px;
     right: 6px;
     border-radius: 5px;
-    top: -3px;
+    top: 5px;
     width: 75px;
     font-size: 16px;
 }
@@ -302,7 +303,7 @@ table tr:nth-child(even) {
 }
 
 .footerSection .contactDetails .contact {
-    width: 34%;
+    width: 30%;
     text-align: center;
 }
 
@@ -320,10 +321,10 @@ table tr:nth-child(even) {
 }
 
 .footerSection .contactDetails .emailAndFrend {
-    width: 66%;
+    width: 70%;
     display: flex;
     background: white;
-    padding: 9px;
+    padding: 5px;
     margin: 5px;
     box-shadow: 1px 4px 5px -1px #bababa inset;
     border-radius: 6px;
@@ -332,21 +333,24 @@ table tr:nth-child(even) {
   text-align: center;
   width:50%;
   border-right: 1.5px solid #432e79;
+  padding: 2px;
 }
 
 .footerSection .contactDetails .emailAndFrend .friend  {
     text-align: center;
     width:50%;
     border-left: 1.5px solid #432e79;
+    padding: 2px;
 }
 .footerSection .contactDetails .emailAndFrend .email .mailId {
-    font-size: 10px;
+    font-size: 11px;
     color: #432e79;
     font-family: headerFont;
+    word-break: break-all;
 }
 
 .footerSection .contactDetails .emailAndFrend .friend .dis {
-    font-size: 10px;
+    font-size: 11px;
     font-family: headerFont;
     color: #432e79;
 }
