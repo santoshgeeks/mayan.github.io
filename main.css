@@ -177,11 +177,12 @@ html {
     width: 55%;
 }
 
-.studenHead img {
-    height: 78px;
+.studenHead .img {
     width: 20%;
 }
-
+.studenHead .img img {
+    height: 78px;
+}
 .studentTeamCodePink {
     background: #F78888;
     margin: 7px;
@@ -205,6 +206,7 @@ html {
     width: 100%;
     background: #ECECEC;
     margin: 10px;
+    min-width: 320px;
 }
 
 .studentTeamCodePink table {
@@ -214,10 +216,9 @@ html {
 
 .scroll-me {
     height: 300px;
-    overflow-y: auto;
-    width: 100%;
+    overflow: auto;
     display: flex;
-    justify-content: center;
+    width: 100%;
 }
 
 .studentTeamCodePink table th,
@@ -228,6 +229,8 @@ td {
     padding: 5px;
     border: none;
     text-align: center;
+    width: 50px;
+    white-space: nowrap;
 }
 
 table tr:nth-child(even) {
@@ -258,10 +261,17 @@ table tr:nth-child(even) {
     outline: none;
     border: navajowhite;
     height: 30px;
-    width: 31px;
-    padding-right: 22%;
+    width: 80px;
+    padding-right: 18%;
     padding-left: 5px;
     font-size: 17px;
+    -moz-appearance: textfield;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .requestTextArea button {
@@ -285,7 +295,7 @@ table tr:nth-child(even) {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 50px;
     flex-wrap: wrap;
     height: 150px;
 }
@@ -296,8 +306,7 @@ table tr:nth-child(even) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    top: -27px;
+    top: -33px;
 }
 
 .footerSection .partners .items {
@@ -308,7 +317,7 @@ table tr:nth-child(even) {
 }
 
 .footerSection .partners .items img {
-    width: 270px;
+    width: 304px;
 }
 
 .footerSection .contactDetails {
@@ -317,7 +326,7 @@ table tr:nth-child(even) {
     align-items: center;
     width: 100%;
     padding: 0px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .footerSection .contactDetails .contact {
@@ -365,6 +374,7 @@ table tr:nth-child(even) {
     color: #432e79;
     font-family: headerFont;
     word-break: break-all;
+    margin-top: 5px;
 }
 
 .footerSection .contactDetails .emailAndFrend .friend .dis {
@@ -373,6 +383,30 @@ table tr:nth-child(even) {
     color: #432e79;
 }
 
-.footerSection .contactDetails .emailAndFrend img {
-    height: 40px;
+.footerSection .contactDetails .emailAndFrend .email  img {
+    height: 50px;
+    margin-top: 3.5px;
+}
+.footerSection .contactDetails .emailAndFrend .friend  img {
+    height: 59px;
+}
+
+/* width */
+.scroll-me ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.scroll-me ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.scroll-me ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.scroll-me ::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
