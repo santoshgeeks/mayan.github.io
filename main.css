@@ -188,8 +188,17 @@ html {
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    padding-top: 80px;
     flex-wrap: wrap;
+}
+.studentTeamCodePink .discription{
+    color: #432e79;
+    font-family: headerFont;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 14px;
 }
 
 .studentTeamCodePink table {
