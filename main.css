@@ -206,7 +206,7 @@ html {
     width: 100%;
     background: #ECECEC;
     margin: 10px;
-    min-width: 390px;
+    min-width: 290px;
 }
 
 .studentTeamCodePink table {
@@ -229,7 +229,7 @@ td {
     padding: 5px;
     border: none;
     text-align: center;
-    width: 50px;
+    /* width: 50px; */
     white-space: nowrap;
 }
 
