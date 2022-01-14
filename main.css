@@ -11,7 +11,12 @@
 body {
     margin: 0px;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
+  a{
+      text-decoration: none;
+  }
 .header-section {
     padding: 0px 5px 0px 5px;
     background: #ECECEC;
@@ -63,7 +68,7 @@ body {
     color: #432e79;
     font-family: bodyFont;
     padding: 10px;
-    font-size: .7rem;
+    font-size: .9rem;
     text-align: center;
     letter-spacing: 0.3px;
 }
@@ -75,6 +80,7 @@ body {
     padding-bottom: 10px;
     border-radius: 5px;
     height: auto;
+    border-radius: 10px;
 }
 
 .head {
@@ -98,8 +104,8 @@ body {
     height: 12px;
     background: #d1d1d1;
     box-shadow: 0px 0px -2px 3px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .head-icon {
@@ -135,6 +141,7 @@ body {
     width: 90px;
     box-shadow: 0px 4px 5px 0px #999797;
     border-radius: 2px;
+    height: 80px;
 }
 
 .whybiIcon img {
@@ -152,7 +159,7 @@ body {
     margin: 5px;
     position: relative;
     padding-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     height: auto;
 }
 
@@ -178,7 +185,7 @@ body {
 .studentTeamCodePink {
     background: #F78888;
     margin: 7px;
-    border-radius: 4px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     padding-top: 80px;
